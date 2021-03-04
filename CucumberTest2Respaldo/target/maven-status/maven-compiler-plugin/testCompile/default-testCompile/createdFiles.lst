@@ -1,0 +1,11 @@
+pageFactory\CartSumaryPage.class
+pageFactory\HomeShopPagePF.class
+pageFactory\DetailResultPagePF.class
+pageFactory\OrderConfirmationPage.class
+pageFactory\CartSumaryAddressPage.class
+pageFactory\CartBankWirePaage.class
+stepDefinitions\TestRunnerShopping.class
+pageFactory\CartSumaryPaymentMethodPage.class
+pageFactory\CartSumaryShippingPage.class
+pageFactory\SignInPage.class
+stepDefinitions\ShopBestSellersTestPF.class

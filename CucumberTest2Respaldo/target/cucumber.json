@@ -1,0 +1,250 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-04T03:32:49.277Z",
+        "line": 24,
+        "name": "Navegar por la web",
+        "description": "",
+        "id": "probar-la-funcionalidad-de-la-pagina-de-compras;navegar-por-la-web;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12089799300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "El usuario esta en la pagina home",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.el_usuario_esta_en_la_pagina_home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 388987900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "da clic en BEST SELLERS",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.da_clic_en_BEST_SELLERS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3043476900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "da clic el ultimo resultado",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.da_clic_el_ultimo_resultado()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251318700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "se muestra la informacion del Printed Dress",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.se_muestra_la_informacion_del_Printed_Dress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122462300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "da clic en simbolo mas para subir Quantity a 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.ShopBestSellersTestPF.da_clic_en_simbolo_mas_para_subir_Quantity_a(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548062400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "selecciona talla \"L\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"L\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.ShopBestSellersTestPF.selecciona_talla(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2870818100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clic en Add to cart y clic en Proceed to checkout",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.clic_en_Add_to_cart_y_clic_en_Proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1957913800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "se muestra el resumen de la compra",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.se_muestra_el_resumen_de_la_compra()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158574000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "se muestra la pagina de Authentication",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.se_muestra_la_pagina_de_Authentication()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2372214400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "el usuario se logea con \"yada@yada.com\" y \"pass1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yada@yada.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"pass1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.ShopBestSellersTestPF.el_usuario_se_logea_con_y(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1904533600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "el usuario esta logeado y se confirman las direcciones de envio y facturacion dando clic en proceed",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.el_usuario_esta_logeado_y_se_confirman_las_direcciones_de_envio_y_facturacion_dando_clic_en_proceed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92756800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "se muestra detalle del envio",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.se_muestra_detalle_del_envio()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1997295800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "el usuario confirma los terminos de servicio",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.el_usuario_confirma_los_terminos_de_servicio()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1163021900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "el usuario paga por bankwire haciendo clien en la opcion",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.el_usuario_paga_por_bankwire_haciendo_clien_en_la_opcion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113280200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "se muestra la pagina de detalle de bank wire",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.se_muestra_la_pagina_de_detalle_de_bank_wire()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1851414000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "el usuario confirma la orden",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.el_usuario_confirma_la_orden()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1109968800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "se muestra la pagina de Order Confirmation",
+            "match": {
+              "location": "stepDefinitions.ShopBestSellersTestPF.se_muestra_la_pagina_de_Order_Confirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Probar la funcionalidad de la pagina de compras",
+    "description": "",
+    "id": "probar-la-funcionalidad-de-la-pagina-de-compras",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/compra.feature",
+    "tags": []
+  }
+]
